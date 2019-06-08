@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    font-family: poppins;
+}
+
+/* HEADER DESIGN*/
+header {
+    /* background: #343741; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: gray;
+}
+
+.hero {
+    background: #343741;
+    height: 110px;
+}
+
+.logo {
+    margin-left: 30px !important;
+}
+
+nav {
+    float: right;
+    margin-right: 80px;
+    margin-top: 35px;
+}
+
+ul>li {
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #ffffff;
+    font-weight: 200;
+}
+
+ul>li>a:hover {
+    color: #98e6ea;
+    transition: ease-out 0.5s;
+}
+
+/* end of HEADER DESIGN*/
+
+/* PORTFOLIO DESIGN*/
+main {
+    height: 100vh;
+}
+
+.project-wrapper {
+    position: relative;
+    width: 75%;
+    top: 30px;
+    left: 190px;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.portfolio-title h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.project-box {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: 10px 40px;
+}
+
+.project-box:hover {
+    box-shadow: 10px 10px rgb(177, 174, 174);
+    transition: ease-out 0.4s;
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project-description {
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* end of PORTFOLIO DESIGN*/
+
+/* FOOTER DESIGN*/
+footer {
+    height: 100px;
+    background: #343741;
+    text-align: center;
+}
+
+.footer {
+    color: #ffffff;
+    position: relative;
+    top: 45px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+/* end of FOOTER DESIGN*/
